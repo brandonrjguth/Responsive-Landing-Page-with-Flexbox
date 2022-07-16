@@ -1,5 +1,5 @@
-html, body, h1{
-    margin:0;
+html, body, h1, p, h2, h3, button{
+    margin:0px;
     font-family: 'roboto';
 }
 
@@ -13,7 +13,7 @@ html, body, h1{
     display:flex;
     justify-content: space-between;
     align-items:center;
-    margin:0 10%;
+    padding:0 10%;
 }
 
 
@@ -60,13 +60,14 @@ html, body, h1{
     color:#E5E7EB;
     border-radius:10px;
     border:none;
-    margin:5px 0;
+    padding:10px 0;
 }
 
 .signUp button{
     background-color:#3882F6;
     height:35px;
     width:100px;
+    padding:0;
 }
 
 .imgPlaceholder{
@@ -89,7 +90,7 @@ html, body, h1{
 }
 
 .gallery h2{
-    padding-top: 30px;
+    padding-top: 80px;
     font-size:36px;
     font-weight:extra-bold;
     color:#1F2937;
@@ -106,7 +107,6 @@ html, body, h1{
     align-items: center;
     text-align: center;
     max-width:200px;
-    
 }
 
 .galleryItem .box{
@@ -114,4 +114,71 @@ html, body, h1{
     height:10rem;
     width:10rem;
     border-radius:20px;
+}
+
+.galleryItem p{
+    padding-top:10px;
+}
+
+.quoteBox{
+    height:50vh;
+    background-color: #E5E7EB;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 30%;
+}
+
+.quoteBox p{
+    font-size:36px;
+    font-weight:200;
+    font-style:italic;
+    margin:0px;
+}
+
+.quoteBox h3{
+    padding:0px 10%;
+    align-self:flex-end
+}
+
+.pageEnd{
+    height:50vh;
+}
+
+.callToActionSection{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:95%;
+}
+
+.callToActionBox{
+    background-color: #3882F6;
+    display:flex;
+    width:70%;
+    height:30%;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-around;
+    color: #F9FAF8;
+}
+
+.callToActionBox button{
+    background-color: #3882F6;
+    border:2px solid white;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding:5px 40px;
+    font-size:18px;
+}
+
+.footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:10%;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
