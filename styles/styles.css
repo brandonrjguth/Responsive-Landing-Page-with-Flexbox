@@ -44,6 +44,7 @@ html, body, h1, p, h2, h3, button{
     flex-grow: 1;
     flex-wrap:wrap;
     margin:auto;
+    max-width: 90%;
 }
 
 .signUp{
@@ -99,15 +100,19 @@ html, body, h1, p, h2, h3, button{
     display:flex;
     flex-direction:column;
     align-items:center;
-    gap:20px;
+    justify-content: center;
+}
+
+.galleryPadding{
+    padding: 40px 80px;
 }
 
 .gallery h2{
-    padding-top: 80px;
     font-size:36px;
     font-weight:extra-bold;
     color:#1F2937;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .galleryItemSection{
@@ -115,7 +120,6 @@ html, body, h1, p, h2, h3, button{
     gap:20px;
     justify-content: center;
     flex-wrap:wrap;
-    padding-bottom:80px
 }
 
 .galleryItem{
@@ -123,7 +127,7 @@ html, body, h1, p, h2, h3, button{
     flex-direction:column;
     align-items: center;
     text-align: center;
-    max-width:200px;
+    max-width: 12rem;
 }
 
 .galleryItem .box{
@@ -179,7 +183,11 @@ html, body, h1, p, h2, h3, button{
 }
 
 .callToActionOuterPadding{
-    padding:30px;
+    padding: 30px;
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    display: flex;
 }
 
 .callToActionBox{
