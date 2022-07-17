@@ -26,9 +26,11 @@ html, body, h1, p, h2, h3, button{
 }
 
 .headerLinks, .headerLinks li{
-    display:inline;
+    display:flex;
+    padding:10px 10px;
     font-size:1em;
     color: #E5E7EB;
+    flex-wrap: wrap;
 }
 
 .headerLinks li{
@@ -174,6 +176,10 @@ html, body, h1, p, h2, h3, button{
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+}
+
+.callToActionOuterPadding{
+    padding:30px;
 }
 
 .callToActionBox{
