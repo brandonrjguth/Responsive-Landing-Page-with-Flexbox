@@ -12,6 +12,6 @@ This project is a fully responsive landing page built using HTML and CSS. It was
 
 ## How to View the Project
 1. Clone the repository
-2. 2. Open `index.html` in your preferred browser.
+2. Open `index.html` in your preferred browser.
 
 Alternatively, you can view the live website at https://brandonrjguth.github.io/Responsive-Landing-Page-with-Flexbox/
